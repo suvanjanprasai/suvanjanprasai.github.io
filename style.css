@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: #000000;
+    font-family: "Roboto Mono", monospace;
+    min-width: 100vw;
+}
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+
+.navbar {
+    background-color: rgba(5, 5, 5, 0.8);
+    padding: 20px 0;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.link {
+
+    font-size: 22px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.link:hover{
+    color: rgb(61, 212, 212);
+
+}
+.link, .btn {
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+.container{
+    position: absolute;
+    top: 20%;
+    width: auto;
+    
+}
+
+.content {
+    padding-left: 10%;
+}
+
+
+.content-paragraph {
+    color: rgb(61, 212, 212);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    letter-spacing: 2px;
+
+}
+
+.content-heading {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+
+}
+
+.content-sub-heading {
+    color: rgb(182, 182, 182);
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.content-intro {
+    color: rgb(129, 129, 129);
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content-btn {
+    background-color: transparent;
+    border: 1px solid rgb(61, 212, 212);
+    font-size: 25px;
+    color: rgb(61, 212, 212);
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+}
+.content-btn:hover{
+    background-color: rgb(39, 141, 141);
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px solid rgb(39, 141, 141);
+}
+
+.navbar-icon{
+    position: absolute;
+    top: 1%;
+    z-index: 2;
+    left: 1%;
+}
+
+
+
+.about{
+    margin-top: 10%;
+    padding-left: 10%;
+    color: white;
+}
+
+.about-heading{
+    position: relative;
+text-align: center;    
+margin-right:10% ;
+}
+
+.about-paragraph{
+width: 70%;
+
+}

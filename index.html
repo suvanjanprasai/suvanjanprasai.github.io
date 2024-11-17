@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-        <meta name="title" content="Suvanjan Prasai - Portfolio">
-    <meta name="description" content="Welcome to the portfolio of Suvanjan Prasai. Discover my projects, skills, and journey as a tech enthusiast passionate about building innovative solutions like HTTP servers, custom proxy servers, and React-based airline systems.">
-    <meta name="keywords" content="Suvanjan Prasai, Portfolio, Web Developer, Student Developer, HTTP Server, Proxy Server, React Developer, Coding Projects, Global School of Science">
+    <meta name="title" content="Suvanjan Prasai - Portfolio">
+    <meta name="description"
+        content="Welcome to the portfolio of Suvanjan Prasai. Discover my projects, skills, and journey as a tech enthusiast passionate about building innovative solutions like HTTP servers, custom proxy servers, React-based airline systems and many more.">
+    <meta name="keywords"
+        content="Suvanjan Prasai, Portfolio, Web Developer, Student Developer, HTTP Server, Proxy Server, React Developer, Coding Projects, Global School of Science">
     <meta name="author" content="Suvanjan Prasai">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
     <meta name="subject" content="Portfolio of Suvanjan Prasai - A budding developer">
     <meta name="og:title" content="Suvanjan Prasai - Portfolio">
-    <meta name="og:description" content="Explore the portfolio of Suvanjan Prasai, showcasing innovative projects and coding skills. Passionate about creating things like HTTP servers, custom proxy servers, and more.">
+    <meta name="og:description"
+        content="Explore the portfolio of Suvanjan Prasai, showcasing innovative projects and coding skills. Passionate about creating things like HTTP servers, custom proxy servers, and more.">
     <meta name="og:image" content="https://suvanjanprasai.com.np/pfp.png"> <!-- Replace with actual image URL -->
     <meta name="og:url" content="https://suvanjanprasai.com.np"> <!-- Replace with your portfolio URL -->
     <meta name="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Suvanjan Prasai - Portfolio">
-    <meta name="twitter:description" content="Hi, I am Suvanjan Prasai. Explore my journey as a tech enthusiast and discover my innovative projects.">
+    <meta name="twitter:description"
+        content="Hi, I am Suvanjan Prasai. Explore my journey as a tech enthusiast and discover my innovative projects.">
     <meta name="twitter:image" content="https://suvanjanprasai.com.np/pfp.png"> <!-- Replace with actual image URL -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="title-icon.png">
@@ -27,7 +32,7 @@
     <img src="icon.png" alt="" height="64px" class="navbar-icon">
 
     <div class="navbar">
-        <a href="#" class="link">About</a>
+        <a href="#about" class="link">About</a>
         <a href="#" class="link">Projects</a>
         <a href="#" class="link">Contact</a>
         <a href="#" class="link">Resume</a>
@@ -35,30 +40,57 @@
     <div class="container">
         <div class="content">
             <p class="content-paragraph">Hi, my name is </p>
-            <p class="content-heading">Suvanjan Prasai.</p>
+            <p class="content-heading" id="content-heading"></p>
             <p class="content-sub-heading">I build things.</p>
-            <p class="content-intro">I am a student currently enrolled in Global School of Science. I have keen interest
-                in coding cool stuffs like http server, custom proxy server, react based airline system and many more.
+            <p class="content-intro">Discover my projects, skills, and journey as a tech enthusiast passionate about
+                building innovative solutions like HTTP servers, custom proxy servers, React-based airline systems and
+                many more.
             </p>
             <span class="content-btn">Projects</span>
         </div>
 
 
-        <div class="about">
+        <div class="about" id="about">
             <h2 class="about-heading">About Me</h2>
-            <div class="about-know-me">
-                <h3>Know Me</h3>
-                <p class="about-paragraph">I am a student currently enrolled in Global School of Science. I have keen
-                    interest in coding cool
-                    stuffs like http server, custom proxy server, react based airline system and many more.</p>
-            </div>
+            <div class="about-sub-container">
+                <div class="about-know-me">
+                    <h3 class="about-know-me-heading">Know Me</h3>
+                    <p class="about-paragraph">I'm Suvanjan Prasai, a student at the Global School of Science in
+                        Kathmandu, and I’m passionate about programming and creating cool, innovative projects. Some of
+                        the fun things I’ve worked on include an airline system with React and Python, a simple proxy
+                        server, an HTTP server, and a student attendance tracker.
+                        <br><br>
+                        But the project I’m most proud of is JASMINE, a virtual assistant with a sleek GUI that gives
+                        off serious JARVIS vibes (yes, the one from Iron Man!). Designing its user interface and
+                        connecting it to the core functionalities was a tedious yet incredibly rewarding experience.</p>
+                </div>
 
-            <div class="about-skills">
-                <h3>My Skills</h3>
-            </div>
+                <div class="about-skills">
+                    <h3 class="about-skills-heading">My Skills</h3>
+                    <h3 class="about-skills-sub-heading">Programming Languages</h3>
+                    <span class="skills-button">HTML</span>
+                    <span class="skills-button">CSS</span>
+                    <span class="skills-button">Javascript</span>
+                    <span class="skills-button">React</span>
+                    <span class="skills-button">Python</span>
+                    <span class="skills-button">C</span>
 
+                    <h3 class="about-skills-sub-heading">Frameworks / libraries</h3>
+                    <span class="skills-button">React</span>
+                    <span class="skills-button">Flask</span>
+
+                    <h3 class="about-skills-sub-heading">Others</h3>
+                    <span class="skills-button">API design</span>
+                    <span class="skills-button">UI design</span>
+                    <span class="skills-button">Powerpoint</span>
+
+                </div>
+            </div>
         </div>
     </div>
+    <script src="script.js">
+    </script>
+
 </body>
 
 </html>

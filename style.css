@@ -6,12 +6,9 @@ body {
     min-width: 100vw;
 }
 
-
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
+html{
+    scroll-behavior:smooth;
+}
 
 .navbar {
     background-color: rgba(5, 5, 5, 0.8);
@@ -33,18 +30,22 @@ body {
     font-weight: 300;
     letter-spacing: 5px;
 }
-.link:hover{
+
+.link:hover {
     color: rgb(61, 212, 212);
 
 }
-.link, .btn {
+
+.link,
+.btn {
     transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
 }
-.container{
+
+.container {
     position: absolute;
     top: 20%;
     width: auto;
-    
+
 }
 
 .content {
@@ -105,14 +106,15 @@ body {
     display: inline-block;
     font-weight: 300;
 }
-.content-btn:hover{
+
+.content-btn:hover {
     background-color: rgb(39, 141, 141);
     color: aliceblue;
     cursor: pointer;
     border: 1px solid rgb(39, 141, 141);
 }
 
-.navbar-icon{
+.navbar-icon {
     position: absolute;
     top: 1%;
     z-index: 2;
@@ -121,19 +123,99 @@ body {
 
 
 
-.about{
+
+
+
+
+#content-heading {
+    display: inline;
+    border-right: 0.1em solid rgb(182, 182, 182);
+    animation: blink-cursor .3s step-end infinite;
+}
+
+@keyframes blink-cursor {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(182, 182, 182)
+    }
+}
+
+.no-cursor {
+    border-right: none;
+    animation: none;
+}
+.about {
     margin-top: 10%;
     padding-left: 10%;
     color: white;
 }
 
-.about-heading{
+.about-heading {
     position: relative;
-text-align: center;    
-margin-right:10% ;
+    text-align: center;
+    margin-right: 10%;
+    font-size: 40px;
+}
+
+
+.about-sub-container {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+
+}
+.about-know-me {
+    background-color: rgb(7, 7, 7);
+    width: 450px;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.about-know-me-heading{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-skills {
+    background-color: rgb(7, 7, 7);
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.skills-button{
+    background-color: rgb(54, 54, 54);
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    display: inline-block;
 }
 
 .about-paragraph{
-width: 70%;
+    text-align:left;
+}
 
+.about-profile-img {
+    float: left; /* Makes the image float to the left */
+    margin-right: 15px; /* Adds space between the image and the text */
+    border-radius: 10px; /* Optional: Makes the image have rounded corners */
+}
+
+.about-skills-heading{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
 }

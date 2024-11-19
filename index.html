@@ -15,25 +15,25 @@
     <meta name="og:title" content="Suvanjan Prasai - Portfolio">
     <meta name="og:description"
         content="Explore the portfolio of Suvanjan Prasai, showcasing innovative projects and coding skills. Passionate about creating things like HTTP servers, custom proxy servers, and more.">
-    <meta name="og:image" content="https://suvanjanprasai.com.np/pfp.png"> <!-- Replace with actual image URL -->
+    <meta name="og:image" content="https://suvanjanprasai.com.np/images/pfp.png"> <!-- Replace with actual image URL -->
     <meta name="og:url" content="https://suvanjanprasai.com.np"> <!-- Replace with your portfolio URL -->
     <meta name="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Suvanjan Prasai - Portfolio">
     <meta name="twitter:description"
         content="Hi, I am Suvanjan Prasai. Explore my journey as a tech enthusiast and discover my innovative projects.">
-    <meta name="twitter:image" content="https://suvanjanprasai.com.np/pfp.png"> <!-- Replace with actual image URL -->
+    <meta name="twitter:image" content="https://suvanjanprasai.com.np/images/pfp.png"> <!-- Replace with actual image URL -->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="title-icon.png">
+    <link rel="icon" href="images/title-icon.png">
     <title>Suvanjan Prasai</title>
 </head>
 
 <body>
-    <img src="icon.png" alt="" height="64px" class="navbar-icon">
+    <img src="images/icon.png" alt="" height="64px" class="navbar-icon">
 
     <div class="navbar">
         <a href="#about" class="link">About</a>
-        <a href="#" class="link">Projects</a>
+        <a href="#projects" class="link">Projects</a>
         <a href="#" class="link">Contact</a>
         <a href="#" class="link">Resume</a>
     </div>
@@ -46,7 +46,7 @@
                 building innovative solutions like HTTP servers, custom proxy servers, React-based airline systems and
                 many more.
             </p>
-            <span class="content-btn">Projects</span>
+            <span class="content-btn" onclick="location.href='#projects'">Projects</span>
         </div>
 
 
@@ -56,13 +56,14 @@
                 <div class="about-know-me">
                     <h3 class="about-know-me-heading">Know Me</h3>
                     <p class="about-paragraph">I'm Suvanjan Prasai, a student at the Global School of Science in
-                        Kathmandu, and I’m passionate about programming and creating cool, innovative projects. Some of
-                        the fun things I’ve worked on include an airline system with React and Python, a simple proxy
+                        Kathmandu, and I'm passionate about programming and creating cool, innovative projects. Some of
+                        the fun things I've worked on include an airline system with React and Python, a simple proxy
                         server, an HTTP server, and a student attendance tracker.
                         <br><br>
-                        But the project I’m most proud of is JASMINE, a virtual assistant with a sleek GUI that gives
+                        But the project I'm most proud of is JASMINE, a virtual assistant with a sleek GUI that gives
                         off serious JARVIS vibes (yes, the one from Iron Man!). Designing its user interface and
-                        connecting it to the core functionalities was a tedious yet incredibly rewarding experience.</p>
+                        connecting it to the core functionalities was a tedious yet incredibly rewarding experience.
+                    </p>
                 </div>
 
                 <div class="about-skills">
@@ -84,6 +85,46 @@
                     <span class="skills-button">UI design</span>
                     <span class="skills-button">Powerpoint</span>
 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="projects" id="projects">
+            <h2 class="projects-heading">Projects</h2>
+            <div class="projects-container">
+                <div class="projects-sub-container" onclick="window.open('https://github.com/suvanjanprasai/nepaair')">
+                    <h3 class="projects-sub-container-heading">Nepaair: Airline System</h3>
+                    <div class="overlay"></div>
+
+                    <img src="images/nepaair.jpeg" width="290" alt="Preview of Nepaair" class="projects-sub-container-image">
+                    <p class="projects-sub-container-paragraph">Nepaair is an airline system with some very basic
+                        features. This includes booking section, status
+                        section, contact section & admin section. My main motive behind building this is to learn react.
+                        I had no idea about react before this project, now i have some idea and concept of it. The front end of this project is made up of react where as backend is made up of python's framework; flask.</p>
+                </div>
+
+                <div class="projects-sub-container" >
+                    <h3 class="projects-sub-container-heading">JASMINE: Virtual Assistant</h3>
+                    <img src="images/assistant-preview.png" width="290" alt="Preview of JASMINE"
+                        class="projects-sub-container-image">
+                    <p class="projects-sub-container-paragraph">J.A.S.M.I.N.E : Just an Autonomous Synthetic Machine
+                        with Intuitive Neural Engineering is the most exciting project I ever built. This project was
+                        build on collabration with my friend Satyam. the most awesome and difficult part
+                        of this project it its GUI. I had to make multiple threads for main program and GUI, then i had
+                        to make the functions communicate with functions of other thread, which was a tideous
+                        work.</p>
+                </div>
+                <div class="projects-sub-container">
+                    <h3 class="projects-sub-container-heading">Student Attendance Tracker</h3>
+                    <img src="images/attendance-preview.png" width="290" alt="Preview of Attendance App"
+                        class="projects-sub-container-image">
+                    <p class="projects-sub-container-paragraph">
+                        Archive Master is a software which can be used by schools, collages and unversities to manage
+                        attendance of students as well as of teachers. This software a software that can also be used
+                        for many different purposes such as for tracking books in a library, result distrubution,
+                        announcement, etc. This software is made up of python, HTML, CSS and Javascript.
+                    </p>
                 </div>
             </div>
         </div>

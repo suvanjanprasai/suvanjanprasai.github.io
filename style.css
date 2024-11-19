@@ -6,8 +6,8 @@ body {
     min-width: 100vw;
 }
 
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -21,7 +21,6 @@ html{
 }
 
 .link {
-
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -33,7 +32,6 @@ html{
 
 .link:hover {
     color: rgb(61, 212, 212);
-
 }
 
 .link,
@@ -45,7 +43,6 @@ html{
     position: absolute;
     top: 20%;
     width: auto;
-
 }
 
 .content {
@@ -122,11 +119,6 @@ html{
 }
 
 
-
-
-
-
-
 #content-heading {
     display: inline;
     border-right: 0.1em solid rgb(182, 182, 182);
@@ -149,6 +141,7 @@ html{
     border-right: none;
     animation: none;
 }
+
 .about {
     margin-top: 10%;
     padding-left: 10%;
@@ -168,17 +161,17 @@ html{
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
-
 }
+
 .about-know-me {
     background-color: rgb(7, 7, 7);
     width: 450px;
     margin-right: 10%;
     padding: 20px;
     border-radius: 10px;
-
 }
-.about-know-me-heading{
+
+.about-know-me-heading {
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
@@ -189,12 +182,11 @@ html{
     width: 450px;
     padding: 20px;
     border-radius: 10px;
-
 }
 
-.skills-button{
+.skills-button {
     background-color: rgb(54, 54, 54);
-    padding-top:8px;
+    padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 12px;
@@ -204,18 +196,67 @@ html{
     display: inline-block;
 }
 
-.about-paragraph{
-    text-align:left;
+.about-paragraph {
+    text-align: left;
 }
 
 .about-profile-img {
-    float: left; /* Makes the image float to the left */
-    margin-right: 15px; /* Adds space between the image and the text */
-    border-radius: 10px; /* Optional: Makes the image have rounded corners */
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
 }
 
-.about-skills-heading{
+.about-skills-heading {
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
+}
+
+
+.projects {
+    margin-top: 10%;
+    padding-left: 10%;
+    color: white;
+}
+
+.projects-container {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+
+
+.projects-sub-container {
+    background-color: rgb(7, 7, 7);
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.projects-sub-container-paragraph {
+    line-height: 1.5em;
+    font-weight: 300;
+    padding-left: 7px;
+}
+
+.projects-sub-container-image {
+    margin-bottom: 10px;
+    padding-left: 7px;
+}
+
+
+.projects-sub-container-heading {
+    font-size: 25px;
+    text-align: center;
+}
+
+.projects-heading {
+    position: relative;
+    text-align: center;
+    margin-right: 10%;
+    font-size: 40px;
 }

@@ -17,8 +17,10 @@ html {
     width: 100%;
     justify-content: end;
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 .link {

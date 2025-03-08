@@ -159,24 +159,46 @@ html {
 
 
 .about-sub-container {
+    background-color: rgb(7, 7, 7);
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
+    border-radius: 5px;
+
 }
 
 .about-know-me {
-    background-color: rgb(7, 7, 7);
     width: 450px;
-    margin-right: 10%;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
     border-radius: 10px;
+    margin-bottom: 45px;
+
+
 }
 
 .about-know-me-heading {
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
+}
+
+.skills {
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+.skills-sub-container {
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+
 }
 
 .about-skills {
@@ -315,4 +337,38 @@ html {
     display: flex;
     justify-content: center;
     
+}
+
+#profile-pic{
+    width: 450px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+
+.code-box {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 400px;
+    height: 325px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 110px;
+    margin-left: 5%;
+    border: 2px solid rgb(10, 10, 10);
+
+}
+code[class*="language-"] {
+    text-shadow: none !important; /* Removes double text effect */
+}
+pre[class*="language-"] {
+    padding-top: 0.5em !important;  /* Change padding */
+    padding-left: 1em !important;  /* Change padding */
+
+}
+.code-box code {
+    display: block;
+    font-size: 16px;
 }

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="title" content="Suvanjan Prasai - Portfolio">
     <meta name="description"
@@ -27,6 +25,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/title-icon.png">
     <title>Suvanjan Prasai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.css">
+
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6RKF0GWN4"></script>
@@ -44,6 +44,7 @@
     <div class="navbar">
         <a href="#about" class="link">About</a>
         <a href="#projects" class="link">Projects</a>
+        <a href="#skills" class="link">Skills</a>
         <a href="#contact" class="link">Contact</a>
         <a href="#" class="link">Resume</a>
     </div>
@@ -64,7 +65,8 @@
         <div class="about" id="about">
             <h2 class="about-heading">About Me</h2>
             <div class="about-sub-container">
-                <div class="about-know-me">
+                <div class="profile-pic"><img src="./images/pfp.jpg" alt="" id="profile-pic"></div>
+                <div class="about-know-me">                    
                     <h3 class="about-know-me-heading">Know Me</h3>
                     <p class="about-paragraph">I'm Suvanjan Prasai, a student at the Global School of Science in
                         Kathmandu, and I'm passionate about programming and creating cool, innovative projects. Some of
@@ -76,7 +78,12 @@
                         connecting it to the core functionalities was a tedious yet incredibly rewarding experience.
                     </p>
                 </div>
+            </div>
+        </div>
 
+        <div class="skills" id="skills">
+            <h2 class="about-heading">Skills</h2>
+            <div class="skills-sub-container">   
                 <div class="about-skills">
                     <h3 class="about-skills-heading">My Skills</h3>
                     <h3 class="about-skills-sub-heading">Programming Languages</h3>
@@ -97,10 +104,12 @@
                     <span class="skills-button">Powerpoint</span>
 
                 </div>
+                <div class="code-box">
+                    <pre style="background-color: black;"><code id="code" class="language-python" style="color: rgb(231, 231, 231);"></code>
+                    </pre>
+                </div>
             </div>
         </div>
-
-
         <div class="projects" id="projects">
             <h2 class="projects-heading">Projects</h2>
             <div class="projects-container">
@@ -236,8 +245,11 @@
         </div>
     </div>
 
-    <script src="script.js">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
